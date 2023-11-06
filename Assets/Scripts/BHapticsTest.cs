@@ -4,13 +4,12 @@ using UnityEngine;
 using Bhaptics.SDK2;
 using TMPro;
 using Oculus.Interaction.HandGrab;
+
+[RequireComponent(typeof(WeightPositionTracking))]
 public class BHapticsTest : MonoBehaviour
 {
     [SerializeField] private TMP_Text leftHapticsText;
     [SerializeField] private TMP_Text rightHapticsText;
-    [SerializeField] private TMP_Text vibrationCounter;
-
-    private int vibrations = 0;
 
     [SerializeField] private HandGrabInteractor leftInteractor;
     [SerializeField] private HandGrabInteractor rightInteractor;
@@ -31,12 +30,24 @@ public class BHapticsTest : MonoBehaviour
 
     private bool leftHapticsOn = false;
     private bool rightHapticsOn = false;
+
+
+    //How much the intesity changes while raising the weights
+    private float intensityChange = 2f;
+
+    private float startingIntensity = 0.5f;
+    private float maxIntensity = 1f;
+    private float currentIntensity;
+
+    private WeightPositionTracking positionTracking;
+
     // Start is called before the first frame update
     void Start()
     {
+        positionTracking = GetComponent<WeightPositionTracking>();
+
         rightHapticsText = Config.instance.rightHapticText;
         leftHapticsText = Config.instance.leftHapticText;
-        vibrationCounter = Config.instance.vibrationText;
 
         rightInteractor = Config.instance.rightInteractor;
         leftInteractor = Config.instance.leftInteractor;
@@ -68,7 +79,7 @@ public class BHapticsTest : MonoBehaviour
                 }
         }
 
-        Debug.Log(currentWeightIdentifier);
+        currentIntensity = startingIntensity;
     }
 
     public enum Weight
@@ -90,6 +101,28 @@ public class BHapticsTest : MonoBehaviour
             }
             leftHapticsText.text = "Left Haptics: On";
             leftHapticsText.color = new Color(0, 255, 0);
+
+            //Handles lowering nad lifting of weight and intensity changes
+            if (positionTracking.lifting)
+            {
+                //Sets the current intesnity based on the desired change times the differnce in the positions
+
+                if (currentIntensity <= maxIntensity)
+                {
+                    currentIntensity += intensityChange * positionTracking.positionDifference;
+                    Config.instance.intensityText.text = "Intensity: " + currentIntensity;
+                }
+            }
+            else if (positionTracking.lowering)
+            {
+                //Sets the current intesnity based on the desired change times the differnce in the positions
+
+                if (currentIntensity >= 0.1f)
+                {
+                    currentIntensity -= intensityChange * Mathf.Abs(positionTracking.positionDifference);
+                    Config.instance.intensityText.text = "Intensity: " + currentIntensity;
+                }
+            }
         }
         else if(!leftInteractor.Grabbed)
         {
@@ -110,6 +143,28 @@ public class BHapticsTest : MonoBehaviour
 
             rightHapticsText.text = "Right Haptics: On";
             rightHapticsText.color = new Color(0, 255, 0);
+
+            //Handles lowering nad lifting of weight and intensity changes
+            if (positionTracking.lifting)
+            {
+                //Sets the current intesnity based on the desired change times the differnce in the positions
+
+                if (currentIntensity <= maxIntensity)
+                {
+                    currentIntensity += intensityChange * Mathf.Abs(positionTracking.positionDifference);
+                    Config.instance.intensityText.text = "Intensity: " + currentIntensity;
+                }
+            }
+            else if (positionTracking.lowering)
+            {
+                //Sets the current intesnity based on the desired change times the differnce in the positions
+
+                if (currentIntensity >= 0.1f)
+                {
+                    currentIntensity -= intensityChange * positionTracking.positionDifference;
+                    Config.instance.intensityText.text = "Intensity: " + currentIntensity;
+                }
+            }
         }
         else if(!rightInteractor.Grabbed)
         {
@@ -121,9 +176,10 @@ public class BHapticsTest : MonoBehaviour
     }
 
     IEnumerator LeftHandVibration() {
-        BhapticsLibrary.Play(leftHandIdentifier + currentWeightIdentifier);
+        //BhapticsLibrary.Play(leftHandIdentifier + currentWeightIdentifier);
+        BhapticsLibrary.PlayParam(leftHandIdentifier + currentWeightIdentifier, currentIntensity, 0.3f, 0, 0);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.3f);
 
        leftHapticsOn = false;
     }

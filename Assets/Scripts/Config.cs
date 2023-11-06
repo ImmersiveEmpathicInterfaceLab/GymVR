@@ -10,7 +10,8 @@ public class Config : MonoBehaviour
 
     [SerializeField]public TMP_Text rightHapticText;
     public TMP_Text leftHapticText;
-    public TMP_Text vibrationText;
+    public TMP_Text liftingText;
+    public TMP_Text intensityText;
 
     public HandGrabInteractor leftInteractor;
     public HandGrabInteractor rightInteractor;
