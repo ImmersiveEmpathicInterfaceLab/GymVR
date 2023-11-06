@@ -1,0 +1,355 @@
+2023-09-26 15:11:20.619 [1] WARN BhapticsPlayer.Window.PortalWindow..ctor(): PortalWindow
+2023-09-26 15:11:21.650 [1] WARN BhapticsPlayer.Window.PortalWindow+<<-ctor>b__8_0>d.MoveNext(): PortalWindow Loaded
+2023-09-26 15:11:21.770 [1] WARN BhapticsPlayer.Internal.LocalDbRepository.InitializeDatabase(): InitializeDatabase
+2023-09-26 15:11:22.320 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-09-26 15:11:22.321 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:22.458 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-09-26 15:11:22.460 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:22.464 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-09-26 15:11:22.466 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:22.549 [1] EROR BhapticsPlayer.ViewModel.PortalMenuViewModel.InitRestMenus(): InitRestMenus
+2023-09-26 15:11:22.708 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:23.141 [4] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:23.175 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:23.192 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:23.376 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): PortalWindowMainView Loaded
+2023-09-26 15:11:23.449 [1] WARN BhapticsPlayer.Window.PortalWindow+<SetPlayerData>d__13.MoveNext(): Bluetooth Version: V5_0
+2023-09-26 15:11:23.524 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): LastVersion: 18
+2023-09-26 15:11:23.620 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.647 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.688 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.732 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.742 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.783 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-09-26 15:11:23.879 [1] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CanHapticResolution
+2023-09-26 15:11:27.643 [6] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:11:27.678 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-09-26 15:11:28.232 [6] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-09-26 15:11:28.239 [6] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-09-26 15:11:50.870 [25] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.developers, bHaptics Developer Portal
+2023-09-26 15:11:50.871 [25] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(a508f31664e54ca8a180280126f0d24f) # of clients : 2
+2023-09-26 15:13:18.393 [49] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-09-26 15:13:18.394 [49] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): SdkRequestReInit New Haptic
+2023-09-26 15:13:18.401 [49] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-09-26 15:16:46.670 [10] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(a508f31664e54ca8a180280126f0d24f). 
+2023-09-26 15:16:48.308 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-09-26 15:16:52.907 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-02 14:08:32.233 [1] WARN BhapticsPlayer.Window.PortalWindow..ctor(): PortalWindow
+2023-10-02 14:08:33.216 [1] WARN BhapticsPlayer.Window.PortalWindow+<<-ctor>b__8_0>d.MoveNext(): PortalWindow Loaded
+2023-10-02 14:08:33.324 [1] WARN BhapticsPlayer.Internal.LocalDbRepository.InitializeDatabase(): InitializeDatabase
+2023-10-02 14:08:33.866 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-02 14:08:33.867 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.006 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-02 14:08:34.008 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.011 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-02 14:08:34.013 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.100 [1] EROR BhapticsPlayer.ViewModel.PortalMenuViewModel.InitRestMenus(): InitRestMenus
+2023-10-02 14:08:34.305 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.808 [6] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.850 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:34.860 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-02 14:08:35.058 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): PortalWindowMainView Loaded
+2023-10-02 14:08:35.112 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.136 [1] WARN BhapticsPlayer.Window.PortalWindow+<SetPlayerData>d__13.MoveNext(): Bluetooth Version: V5_0
+2023-10-02 14:08:35.141 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.190 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.209 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): LastVersion: 18
+2023-10-02 14:08:35.235 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.247 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.295 [12] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-02 14:08:35.584 [1] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CanHapticResolution
+2023-10-02 14:09:30.649 [34] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.developers, bHaptics Developer Portal
+2023-10-02 14:09:30.649 [17] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.designer2, bHaptics Designer
+2023-10-02 14:09:30.651 [34] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(f528c9a480cc4426bb6e883975f7c4a4) # of clients : 2
+2023-10-02 14:09:30.651 [17] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(5e51943d2afe48c593723bcf78da5893) # of clients : 2
+2023-10-02 14:11:35.294 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-02 14:11:36.401 [35] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(5e51943d2afe48c593723bcf78da5893). 
+2023-10-02 14:11:36.401 [48] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(f528c9a480cc4426bb6e883975f7c4a4). 
+2023-10-02 14:11:42.444 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-05 12:46:11.190 [1] WARN BhapticsPlayer.Window.PortalWindow..ctor(): PortalWindow
+2023-10-05 12:46:12.429 [1] WARN BhapticsPlayer.Window.PortalWindow+<<-ctor>b__8_0>d.MoveNext(): PortalWindow Loaded
+2023-10-05 12:46:12.538 [1] WARN BhapticsPlayer.Internal.LocalDbRepository.InitializeDatabase(): InitializeDatabase
+2023-10-05 12:46:13.081 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-05 12:46:13.082 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.231 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-05 12:46:13.232 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.236 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-05 12:46:13.237 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.321 [1] EROR BhapticsPlayer.ViewModel.PortalMenuViewModel.InitRestMenus(): InitRestMenus
+2023-10-05 12:46:13.495 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.928 [4] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.966 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:13.983 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:14.169 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): PortalWindowMainView Loaded
+2023-10-05 12:46:14.275 [1] WARN BhapticsPlayer.Window.PortalWindow+<SetPlayerData>d__13.MoveNext(): Bluetooth Version: V5_0
+2023-10-05 12:46:14.344 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): LastVersion: 18
+2023-10-05 12:46:14.409 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.437 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.459 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.501 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.511 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.540 [8] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-05 12:46:14.630 [1] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CanHapticResolution
+2023-10-05 12:46:18.278 [7] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 12:46:18.310 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 12:46:18.830 [7] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 12:46:18.836 [7] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 12:46:38.106 [28] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.developers, bHaptics Developer Portal
+2023-10-05 12:46:38.106 [4] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.designer2, bHaptics Designer
+2023-10-05 12:46:38.106 [28] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(3d086ebe961d4c7c8294c268b2dc2125) # of clients : 3
+2023-10-05 12:46:38.106 [4] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(36165d42f9124974b2b1bc0fba2413f1) # of clients : 3
+2023-10-05 12:51:34.289 [12] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 12:51:34.290 [12] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:00:19.421 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. 3d086ebe961d4c7c8294c268b2dc2125 create one.
+2023-10-05 13:19:49.013 [38] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:19:49.023 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 13:19:49.835 [19] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 13:19:49.838 [19] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:19:50.984 [39] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:19:50.984 [39] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:35:21.344 [7] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:35:21.347 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 13:35:22.163 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 13:35:22.168 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:41:06.728 [34] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:41:06.745 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 13:41:07.244 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 13:41:07.248 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:47:08.655 [16] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:47:08.663 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 13:47:09.492 [13] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 13:47:09.495 [13] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:47:15.882 [23] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-05 13:47:15.885 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-05 13:47:16.252 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-05 13:47:16.255 [36] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-05 13:57:39.883 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-05 14:34:16.552 [40] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(3d086ebe961d4c7c8294c268b2dc2125). 
+2023-10-05 14:34:16.553 [8] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(36165d42f9124974b2b1bc0fba2413f1). 
+2023-10-05 14:34:23.421 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-05 14:34:25.515 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-12 12:06:31.769 [1] WARN BhapticsPlayer.Window.PortalWindow..ctor(): PortalWindow
+2023-10-12 12:06:32.994 [1] WARN BhapticsPlayer.Window.PortalWindow+<<-ctor>b__8_0>d.MoveNext(): PortalWindow Loaded
+2023-10-12 12:06:33.103 [1] WARN BhapticsPlayer.Internal.LocalDbRepository.InitializeDatabase(): InitializeDatabase
+2023-10-12 12:06:33.819 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-12 12:06:33.820 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:33.992 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-12 12:06:33.994 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.000 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-10-12 12:06:34.002 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.096 [1] EROR BhapticsPlayer.ViewModel.PortalMenuViewModel.InitRestMenus(): InitRestMenus
+2023-10-12 12:06:34.210 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.645 [7] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.690 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.700 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:34.881 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): PortalWindowMainView Loaded
+2023-10-12 12:06:34.971 [1] WARN BhapticsPlayer.Window.PortalWindow+<SetPlayerData>d__13.MoveNext(): Bluetooth Version: V5_0
+2023-10-12 12:06:35.038 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): LastVersion: 18
+2023-10-12 12:06:35.161 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.183 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.217 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.255 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.269 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.300 [10] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-10-12 12:06:35.353 [1] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CanHapticResolution
+2023-10-12 12:06:38.940 [16] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-10-12 12:06:38.971 [9] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-10-12 12:06:39.830 [16] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-10-12 12:06:39.835 [16] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage
+2023-10-12 12:07:55.629 [1] WARN BhapticsPlayer.Bluetooth.BluetoothUtilities+<GetGattCharacteristic>d__0.MoveNext(): Failed to GetGattCharacteristic(Service UUID : 6e400001-b5a3-f393-e0a9-e50e24dcca9e, Char UUID : 6e400014-b5a3-f393-e0a9-e50e24dcca9e) Number of char is zero.
+2023-10-12 12:07:55.652 [1] WARN BhapticsPlayer.Bluetooth.BluetoothUtilities+<GetGattCharacteristic>d__0.MoveNext(): Failed to GetGattCharacteristic(Service UUID : 6e400001-b5a3-f393-e0a9-e50e24dcca9e, Char UUID : 6e40000d-b5a3-f393-e0a9-e50e24dcca9e) Number of char is zero.
+2023-10-12 12:07:55.654 [1] WARN BhapticsPlayer.Bluetooth.BluetoothUtilities+<GetGattCharacteristic>d__0.MoveNext(): Failed to GetGattCharacteristic(Service UUID : 6e400001-b5a3-f393-e0a9-e50e24dcca9e, Char UUID : 6e40000e-b5a3-f393-e0a9-e50e24dcca9e) Number of char is zero.
+2023-10-12 12:07:56.397 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 1,1,0,0,0,0,156,225,39,101,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:56.399 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 01-01-00-00-00-00-9C-E1-27-65-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:56.423 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:56.424 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:56.572 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,4,2, 3, 6e400005-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:56.573 [1] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-04-02, 3
+2023-10-12 12:07:56.609 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:56.609 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:56.961 [35] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:56.962 [35] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 02-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:57.492 [15] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:57.492 [15] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 02-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:58.028 [23] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:58.028 [23] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 02-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:58.557 [7] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:58.557 [7] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 02-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:07:59.097 [27] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e400011-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:07:59.097 [27] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 02-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.606 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,1,49,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.606 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-01-31-31-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.646 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 6,5,0,19,40,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.646 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 06-05-00-13-28-2F-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.687 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 15,9,0,31,31,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.687 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 0F-09-00-1F-1F-2B-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.726 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 22,11,0,43,14,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.726 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 16-0B-00-2B-0E-26-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.766 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 28,12,5,47,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.767 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1C-0C-05-2F-00-22-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.806 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 34,0,26,36,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.806 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 22-00-1A-24-00-1C-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.846 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 38,9,39,21,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.846 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 26-09-27-15-00-16-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.886 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 41,10,47,5,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.886 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 29-0A-2F-05-00-12-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.926 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 46,23,42,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.926 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2E-17-2A-00-00-0A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:10.966 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 47,39,28,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:10.966 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2F-27-1C-00-00-0D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.007 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 42,62,10,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.007 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2A-3E-0A-00-00-08-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.047 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 41,74,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.047 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 29-4A-00-00-00-0D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.087 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 45,77,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.087 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2D-4D-00-00-00-15-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.126 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 46,75,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.126 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2E-4B-00-00-00-14-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.167 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 41,74,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.167 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 29-4A-00-00-00-0D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.207 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 42,59,15,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.207 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2A-3B-0F-00-00-0F-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.247 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 47,39,28,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.247 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2F-27-1C-00-00-0D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.286 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 46,23,42,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.286 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2E-17-2A-00-00-0A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.326 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 43,0,50,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.326 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2B-00-32-00-00-0F-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.366 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 38,9,39,21,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.366 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 26-09-27-15-00-16-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.406 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 34,0,25,37,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.406 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 22-00-19-25-00-1C-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.446 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 28,12,5,47,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.446 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1C-0C-05-2F-00-22-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.486 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 22,11,0,43,14,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.486 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 16-0B-00-2B-0E-26-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.527 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 15,9,0,31,31,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.527 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 0F-09-00-1F-1F-2B-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.567 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 6,5,0,19,40,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.567 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 06-05-00-13-28-2F-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.607 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,1,49,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.607 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-01-31-32-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:11.646 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:11.646 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.526 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.526 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-1D-1D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.567 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 3,3,0,11,24,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.567 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 03-03-00-0B-18-1C-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.607 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 9,5,0,18,18,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.607 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 09-05-00-12-12-1A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.647 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 13,6,0,26,8,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.647 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 0D-06-00-1A-08-17-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.686 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 16,7,3,28,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.686 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 10-07-03-1C-00-14-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.726 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 20,0,15,21,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.726 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 14-00-0F-15-00-10-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.766 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 22,6,23,12,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.766 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 16-06-17-0C-00-0E-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.807 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 24,6,30,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.807 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 18-06-1E-00-00-0A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.846 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 27,13,25,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.846 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1B-0D-19-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.886 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 28,22,18,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.886 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1C-16-12-00-00-02-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.926 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 25,36,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.926 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 19-24-06-00-00-05-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:12.966 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 24,44,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:12.966 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 18-2C-00-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.006 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 28,44,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.006 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1C-2C-00-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.046 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 27,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.046 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1B-2D-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.086 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 26,43,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.086 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1A-2B-00-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.126 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 24,38,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.126 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 18-26-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.167 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 28,22,18,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.167 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1C-16-12-00-00-02-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.207 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 27,13,25,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.207 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 1B-0D-19-00-00-06-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.247 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 24,6,30,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.247 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 18-06-1E-00-00-0A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.287 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 22,8,23,12,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.287 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 16-08-17-0C-00-0E-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.327 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 20,7,15,21,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.327 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 14-07-0F-15-00-10-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.366 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 16,7,3,28,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.366 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 10-07-03-1C-00-14-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.407 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 13,6,0,26,8,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.407 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 0D-06-00-1A-08-17-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.447 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 9,5,0,18,18,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.447 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 09-05-00-12-12-1A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.487 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 6,2,0,11,24,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.487 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 06-02-00-0B-18-1B-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.526 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.526 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-1D-1E-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:13.566 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:13.566 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.186 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,4,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.186 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-04-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.226 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 24,20,0,65,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.226 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 18-14-00-41-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.266 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 62,36,0,100,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.266 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 3E-24-00-64-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.306 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 84,48,0,100,84,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.306 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 54-30-00-64-54-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.347 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,56,18,100,31,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.347 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-38-12-64-1F-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.387 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,50,50,100,10,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.387 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-32-32-64-0A-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.427 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,46,100,100,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.427 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-2E-64-64-00-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.466 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,40,100,75,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.466 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-28-64-4B-00-48-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.506 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,67,100,60,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.506 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-43-64-3C-00-3F-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.546 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,96,100,34,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.546 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-60-64-22-00-28-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.586 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,100,22,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.586 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-64-16-00-26-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.626 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,89,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.626 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-59-00-00-40-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.666 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,72,0,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.666 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-48-00-00-52-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.707 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,56,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.707 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-38-00-00-50-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.747 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,31,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.747 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-1F-00-00-33-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.787 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 87,100,46,0,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.787 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 57-64-2E-00-00-2A-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.826 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,100,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.827 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-64-00-00-45-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.866 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,100,100,0,0,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.866 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-64-64-00-00-4D-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.906 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,75,100,14,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.906 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-4B-64-0E-00-44-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.946 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,56,100,98,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.946 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-38-64-62-00-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:14.986 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,25,91,100,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:14.986 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-19-5B-64-00-38-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.026 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,25,18,100,5,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.026 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-19-12-64-05-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.067 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 100,43,0,100,64,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.067 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 64-2B-00-64-40-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.107 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 85,38,0,100,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.107 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 55-26-00-64-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.147 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 43,10,0,72,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.147 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 2B-0A-00-48-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.187 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,2,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.187 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-02-64-64-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:15.226 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): Write() 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 20, 6e40000a-b5a3-f393-e0a9-e50e24dcca9e
+2023-10-12 12:08:15.226 [9] WARN BhapticsPlayer.Bluetooth.TactosyDevice+<Write>d__301.MoveNext(): WriteHex() 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, 20
+2023-10-12 12:08:32.514 [37] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.developers, bHaptics Developer Portal
+2023-10-12 12:08:32.515 [37] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(e04e16131e5a4ecfaa3e61c8040b151f) # of clients : 2
+2023-10-12 12:09:36.153 [41] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.developers, bHaptics Developer Portal
+2023-10-12 12:09:36.153 [41] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(dc423b2f8f9d46298e8d5960a113ce12) # of clients : 3
+2023-10-12 12:09:37.461 [44] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): PlayerServerBehavior OnOpen com.bhaptics.designer2, bHaptics Designer
+2023-10-12 12:09:37.462 [44] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnOpen(): OnOpen(eda318533d0849538ba4f628aed346cb) # of clients : 4
+2023-10-12 12:30:48.777 [12] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CapturingDevice
+2023-10-12 12:30:48.789 [12] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CapturingDevice
+2023-10-12 12:30:49.347 [12] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CapturingDevice
+2023-10-12 13:33:35.923 [49] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(e04e16131e5a4ecfaa3e61c8040b151f). 
+2023-10-12 13:33:35.924 [16] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(eda318533d0849538ba4f628aed346cb). 
+2023-10-12 13:33:35.924 [51] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(dc423b2f8f9d46298e8d5960a113ce12). 
+2023-10-12 13:33:42.707 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-10-12 13:33:47.970 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
