@@ -136,6 +136,7 @@ public class StressBall : MonoBehaviour
             rightHapticsText.text = "Right Haptics: Off";
             rightHapticsText.color = new Color(255, 0, 0);
 
+            //Allows the meshes to be deformed when the left hand is grabbing
             if (leftInteractor.GrabbedWeight != gameObject.name)
             {
                 //Resets the ball mesh
