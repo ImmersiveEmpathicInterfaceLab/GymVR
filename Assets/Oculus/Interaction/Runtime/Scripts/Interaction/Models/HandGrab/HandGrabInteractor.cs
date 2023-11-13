@@ -88,6 +88,8 @@ namespace Oculus.Interaction.HandGrab
         private bool grabbed = false;
         public bool Grabbed => grabbed;
 
+        public bool Grabbing = false;
+
         private string grabbedWeight = "";
 
         public string GrabbedWeight => grabbedWeight;
@@ -260,6 +262,7 @@ namespace Oculus.Interaction.HandGrab
                 SetGrabStrength(1f);
                 grabbed = true;
                 grabbedWeight = interactable.gameObject.name;
+                Grabbing = true;
             }
 
             base.InteractableSelected(interactable);
@@ -281,6 +284,7 @@ namespace Oculus.Interaction.HandGrab
             interactable.ApplyVelocities(throwVelocity.LinearVelocity, throwVelocity.AngularVelocity);
             grabbed = false;
             grabbedWeight = "";
+            Grabbing = false;
         }
 
         protected override void HandlePointerEventRaised(PointerEvent evt)

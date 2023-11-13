@@ -161,7 +161,7 @@ public class BHapticsTest : MonoBehaviour
 
                 if (currentIntensity >= 0.1f)
                 {
-                    currentIntensity -= intensityChange * positionTracking.positionDifference;
+                    currentIntensity -= intensityChange * Mathf.Abs(positionTracking.positionDifference);
                     Config.instance.intensityText.text = "Intensity: " + currentIntensity;
                 }
             }
@@ -186,7 +186,7 @@ public class BHapticsTest : MonoBehaviour
 
     IEnumerator RightHandVibration()
     {
-        BhapticsLibrary.Play(rightHandIdentifier + currentWeightIdentifier);
+        BhapticsLibrary.PlayParam(rightHandIdentifier + currentWeightIdentifier, currentIntensity, 0.3f, 0, 0);
 
         yield return new WaitForSeconds(1f);
 
