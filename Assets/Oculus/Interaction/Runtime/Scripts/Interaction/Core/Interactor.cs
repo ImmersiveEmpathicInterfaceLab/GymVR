@@ -65,9 +65,6 @@ namespace Oculus.Interaction
         protected virtual void DoHoverUpdate() { }
         protected virtual void DoSelectUpdate() { }
         protected virtual void DoPostprocess() { }
-
-        public bool Grabbing = false;
-
         public virtual bool ShouldHover
         {
             get
