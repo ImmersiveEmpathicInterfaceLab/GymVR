@@ -1,0 +1,18 @@
+To setup the environment for testing and development install the project and make sure
+The following packages are installed:
+1. Oculus XR Plugin
+2. XR Plugin Management
+3. The BHaptics plugin (this one can be found on the Bhaptics website https://www.bhaptics.com/support/developers)
+
+If all the packages are installed then go into the Unity Build Settings and change the target to Android. While still in the build window click "Player Settings" in the bottom left.
+Once in the player settings tab find XR Plug-in Management, click on the Android section and make sure Oculus is selected. Then find the Oculus section below the XR Plug-In Management,
+go to the android section again and make surethe device you want to use is checked in the target devices section.
+
+Once all that is setup you will need a developer account for your Meta Quest. Once you make one and sign in on the headset you should be able to enable developer mode on the headset.
+Then connect the headset to the PC using the USB-C cable that came with the headset. Once you connect the headset, put it on and you should see a prompt asking if you want to enable USB Debugging
+(On the Meta Quest it is a small dialogue box that will appear and disapear after a short time, on the Quest 3 it is a pop up you have to interact with).
+
+Once USB debugging has been enabled you should be able to build to the headset. While the headset is plugged in go into Unity and Click build and run. Once you save the file location and it finishes
+building the app should launch on the device.
+
+If you run into issues with setup this is the documentation I followed along with to set it up in the first place: https://developer.oculus.com/documentation/unity/unity-env-device-setup/

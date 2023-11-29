@@ -353,3 +353,31 @@
 2023-10-12 13:33:35.924 [51] WARN BhapticsPlayer.WebSocket.PlayerServerBehavior.OnClose(WebSocketSharp.CloseEventArgs): OnClose(dc423b2f8f9d46298e8d5960a113ce12). 
 2023-10-12 13:33:42.707 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
 2023-10-12 13:33:47.970 [1] EROR BhapticsPlayer.Window.PortalWindow.Window_Closing(System.Object, System.ComponentModel.CancelEventArgs): Window_Closing
+2023-11-29 15:31:37.489 [1] WARN BhapticsPlayer.Window.PortalWindow..ctor(): PortalWindow
+2023-11-29 15:31:38.470 [1] WARN BhapticsPlayer.Window.PortalWindow+<<-ctor>b__8_0>d.MoveNext(): PortalWindow Loaded
+2023-11-29 15:31:38.585 [1] WARN BhapticsPlayer.Internal.LocalDbRepository.InitializeDatabase(): InitializeDatabase
+2023-11-29 15:31:39.234 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-11-29 15:31:39.235 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:39.386 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-11-29 15:31:39.388 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:39.391 [1] EROR BhapticsPlayer.Audio.UserService.GetUser(): User not ready.
+2023-11-29 15:31:39.396 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:39.490 [1] EROR BhapticsPlayer.ViewModel.PortalMenuViewModel.InitRestMenus(): InitRestMenus
+2023-11-29 15:31:39.601 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:40.044 [15] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:40.080 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:40.097 [1] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:40.271 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): PortalWindowMainView Loaded
+2023-11-29 15:31:40.341 [1] WARN BhapticsPlayer.Window.PortalWindow+<SetPlayerData>d__13.MoveNext(): Bluetooth Version: V5_0
+2023-11-29 15:31:40.412 [1] WARN BhapticsPlayer.View.PortalWindowMainView+<<-ctor>b__1_0>d.MoveNext(): LastVersion: 18
+2023-11-29 15:31:40.473 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.498 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.521 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.564 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.576 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamLibFolder(): path C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.611 [13] EROR BhapticsPlayer.Utils.SteamUtils.GetSteamInstalledDir(): GetSteamInstalledDir: SOFTWARE\Wow6432Node\Valve\Steam, C:\Program Files (x86)\Steam
+2023-11-29 15:31:40.739 [1] EROR BhapticsPlayer.ViewModel.ProfileMyViewModel+<>c__DisplayClass83_0.<Init>b__0(System.Object, System.ComponentModel.PropertyChangedEventArgs): Changed CanHapticResolution
+2023-11-29 15:31:44.722 [7] WARN BhapticsPlayer.Login.UserRepository.GetCurrentUser(): GetCurrentUser User null
+2023-11-29 15:31:44.748 [10] WARN BhapticsPlayer.Haptic.AthFilePlayer.Register(BhapticsPlayer.Haptic.RegisterAthRequest): Register() Does not have an app. tnochVkkgLZL0Ge1WCt4 create one.
+2023-11-29 15:31:45.267 [7] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.OnMessage(WebSocketSharp.MessageEventArgs): OnMessage : SdkRequestAuthInit
+2023-11-29 15:31:45.271 [7] EROR BhapticsPlayer.Websocket.HapticPatternBehavior.GetHapticDeployMessage(System.String): GetHapticDeployMessage() HapticDeployHttpMessage

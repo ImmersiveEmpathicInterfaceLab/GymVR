@@ -1,0 +1,17 @@
+This section deals with putting the unity app onto the headset for later use without having to build from the pc. Check the Setup txt file for info on setting the device up.
+
+1. Download SideQuest (the Advanced Launcher version specifically as it allows loading APK's onto the Headsets)
+2. Launch SideQuest and make sure the headset is plugged in to the computer, you should see a green circle and name of the device on the top left if it is connected
+3. On the top bar on the right side, look for the icon of a folder with a down area button “Install APK file from folder on computer”.
+4. Select the APK and it should load it onto the Quest.
+
+Documentation followed here: https://vr-junkies.com/en/install-apk-files-on-meta-quest-2-oculus-quest-2/
+
+To open the apk after sideloading:
+1. Go to the App Library
+2. On the top right you should pickers used to show only certain apps
+3. Select the one with "All" and change it to "Unkown Sources"
+4. The APK should show up if sideloaded and you can click and run the app.
+
+Documentation followed here (Second half of the article): https://www.clubhousevr.com/how-to-sideload-apps-and-games-on-your-meta-quest/
+

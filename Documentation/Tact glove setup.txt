@@ -1,0 +1,23 @@
+You will need to go to the bHaptics website and create a developer account first.
+
+Creating new Vibrations:
+1. Go to the bHaptics designer
+2. Create a new project for the desired piece of tact gear (Each individual piece will need it's own project i.e. Left and Right hand projects)
+3. Add nodes for the vibration pattern you want and change the intensity to match what you want
+4. Go to bHaptics Developer Applications and make a application for the project
+5. Export the vibrations you created and import them into the application
+
+Connecting Application to Unity:
+1. Make sure the bHaptic package is installed in unity and open the bHaptics Developer Window
+2. Gather the Application ID and API Key from the settings page of the bHaptics Developer Application
+3. Then in the bHaptics Developer Application whenever you make changes go to the Deployments tab and deploy a new version
+4. In unity open the Developer Window and refresh the deployed version in the bottom left to get the newest version
+
+
+Connecting Tact gloves to headset:
+1. Turn on tact gloves
+2. Go to "Settings"
+3. Go to "Devices"
+4. Pair bluetooh device
+5. Pair new device
+6. Select one of the tact gloves and repeat steps for the other one
