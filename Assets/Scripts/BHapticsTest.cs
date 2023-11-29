@@ -188,7 +188,7 @@ public class BHapticsTest : MonoBehaviour
     {
         BhapticsLibrary.PlayParam(rightHandIdentifier + currentWeightIdentifier, currentIntensity, 0.3f, 0, 0);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.3f);
 
         rightHapticsOn = false;
     }
