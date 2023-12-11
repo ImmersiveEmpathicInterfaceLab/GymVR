@@ -36,6 +36,7 @@ public class HeightCalibration : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If not calibrating don't do anything
         if (calibrating != true) return;
 
         timer -= Time.deltaTime;
