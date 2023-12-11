@@ -44,11 +44,14 @@ public class BHapticsTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Used for intesity change for weight motion
         positionTracking = GetComponent<WeightPositionTracking>();
 
+        //Debug Text to see if the haptics are on
         rightHapticsText = Config.instance.rightHapticText;
         leftHapticsText = Config.instance.leftHapticText;
 
+        //Hand interactor components
         rightInteractor = Config.instance.rightInteractor;
         leftInteractor = Config.instance.leftInteractor;
 
@@ -58,6 +61,7 @@ public class BHapticsTest : MonoBehaviour
         rightHapticsText.text = "Right Haptics: Off";
         rightHapticsText.color = new Color(255, 0, 0);
 
+        //Sets the current weight identifier based on the selected bellWeight
         switch (bellWeight)
         {
             case Weight.Light:
@@ -82,6 +86,7 @@ public class BHapticsTest : MonoBehaviour
         currentIntensity = startingIntensity;
     }
 
+    //Enum for the different weight values
     public enum Weight
     {
         Light,
@@ -92,7 +97,7 @@ public class BHapticsTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Left hand is grabbing something and the gameobject this script is attached to is the one being grabbed (prevents all the weights from firing their vibrations at once when one is grabbed)
         if (leftInteractor.Grabbed && gameObject.name.Equals(leftInteractor.GrabbedWeight))
         {
             if(!leftHapticsOn){
@@ -124,6 +129,7 @@ public class BHapticsTest : MonoBehaviour
                 }
             }
         }
+        //Player lets go of whats being grabbed, stop everything and turn off vibration
         else if(!leftInteractor.Grabbed)
         {
             leftHapticsOn = false;
@@ -131,7 +137,8 @@ public class BHapticsTest : MonoBehaviour
             leftHapticsText.text = "Left Haptics: Off";
             leftHapticsText.color = new Color(255, 0, 0);
         }
-        
+
+        //Right hand is grabbing something and the gameobject this script is attached to is the one being grabbed (prevents all the weights from firing their vibrations at once when one is grabbed)
         if (rightInteractor.Grabbed && gameObject.name.Equals(rightInteractor.GrabbedWeight))
         {
             if (!rightHapticsOn)
@@ -166,7 +173,8 @@ public class BHapticsTest : MonoBehaviour
                 }
             }
         }
-        else if(!rightInteractor.Grabbed)
+        //Player lets go of whats being grabbed, stop everything and turn off vibration
+        else if (!rightInteractor.Grabbed)
         {
             rightHapticsOn = false;
             BhapticsLibrary.StopByEventId(rightHandIdentifier + currentWeightIdentifier);
@@ -175,6 +183,10 @@ public class BHapticsTest : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Coroutine for playing vibrations in the left hand
+    /// </summary>
+    /// <returns></returns>
     IEnumerator LeftHandVibration() {
         //BhapticsLibrary.Play(leftHandIdentifier + currentWeightIdentifier);
         BhapticsLibrary.PlayParam(leftHandIdentifier + currentWeightIdentifier, currentIntensity, 0.3f, 0, 0);
@@ -184,6 +196,10 @@ public class BHapticsTest : MonoBehaviour
        leftHapticsOn = false;
     }
 
+    /// <summary>
+    /// Coroutine for playing vibrations in the right hand
+    /// </summary>
+    /// <returns></returns>
     IEnumerator RightHandVibration()
     {
         BhapticsLibrary.PlayParam(rightHandIdentifier + currentWeightIdentifier, currentIntensity, 0.3f, 0, 0);
@@ -191,18 +207,5 @@ public class BHapticsTest : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
 
         rightHapticsOn = false;
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-       if (other.gameObject.CompareTag("Player"))
-        {
-            if (leftHapticsOn == false)
-            {
-                Debug.Log(leftHandIdentifier + currentWeightIdentifier);
-                leftHapticsOn = true;
-                StartCoroutine(LeftHandVibration());
-            }
-        }
     }
 }
