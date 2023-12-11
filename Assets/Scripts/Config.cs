@@ -4,6 +4,9 @@ using UnityEngine;
 using TMPro;
 using Oculus.Interaction.HandGrab;
 
+/// <summary>
+/// Singleton used for holding some common items that would need to be assigned in different scripts
+/// </summary>
 public class Config : MonoBehaviour
 {
     public static Config instance;
