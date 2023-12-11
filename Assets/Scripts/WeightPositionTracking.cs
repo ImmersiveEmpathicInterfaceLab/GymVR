@@ -26,8 +26,10 @@ public class WeightPositionTracking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Get the current y position of the weight
         currentY = transform.position.y;
 
+        //If the current y position is greater than last y position the weight is being lifted
         if(currentY > lastY)
         {
             lifting = true;
@@ -35,17 +37,21 @@ public class WeightPositionTracking : MonoBehaviour
 
             Config.instance.liftingText.text = "Lifting";
 
+            //Get position difference between the two positions
             positionDifference = Mathf.Abs(currentY) - Mathf.Abs(lastY);
         }
-        else if(currentY < lastY)
+        //If the current y position is greater than last y position the weight is being lowered
+        else if (currentY < lastY)
         {
             lifting = false;
             lowering = true;
 
             Config.instance.liftingText.text = "Lowering";
 
+            //Get position difference between the two positions
             positionDifference = Mathf.Abs(currentY) - Mathf.Abs(lastY);
         }
+        //Else not moving at all and is still
         else
         {
             Config.instance.liftingText.text = "Still";
@@ -54,6 +60,7 @@ public class WeightPositionTracking : MonoBehaviour
             lowering = false;
         }
 
+        //Get the last y position after checking for the previous one
         lastY = currentY;
     }
 }
