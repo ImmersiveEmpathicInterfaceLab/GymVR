@@ -52,6 +52,7 @@ public class StressBall : MonoBehaviour
         rightHapticsText.text = "Right Haptics: Off";
         rightHapticsText.color = new Color(255, 0, 0);
 
+        //Set the elasticity and weight identifier after what was selected in the editor
         switch (elasticity)
         {
             case Elasticity.High:
@@ -76,6 +77,7 @@ public class StressBall : MonoBehaviour
                 }
         }
 
+        //Component for controlling how the ball deforms
         deformer = GetComponentInChildren<SquashAndStretchDeformer>();
     }
 
@@ -89,9 +91,10 @@ public class StressBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Left hand grabbed something and current gameobject's name matches what was grabbed
         if (leftInteractor.Grabbed && gameObject.name.Equals(leftInteractor.GrabbedWeight))
         {
+            //If not currently vibrating, vibrate
             if (!leftHapticsOn)
             {
                 leftHapticsOn = true;
@@ -103,6 +106,7 @@ public class StressBall : MonoBehaviour
             //Deforms the ball when grabbed
             deformer.Factor = currentElasticityIdentifier;
         }
+        //Player let go with left hand
         else if (!leftInteractor.Grabbed)
         {
             leftHapticsOn = false;
@@ -114,6 +118,7 @@ public class StressBall : MonoBehaviour
             deformer.Factor = 0;
         }
 
+        //Right hand grabbed something and current gameobject's name matches what was grabbed
         if (rightInteractor.Grabbed && gameObject.name.Equals(rightInteractor.GrabbedWeight))
         {
             if (!rightHapticsOn)
@@ -129,6 +134,7 @@ public class StressBall : MonoBehaviour
             //Deforms the ball when grabbed
             deformer.Factor = currentElasticityIdentifier;
         }
+        //Player let go with right hand
         else if (!rightInteractor.Grabbed)
         {
             rightHapticsOn = false;
