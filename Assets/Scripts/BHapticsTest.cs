@@ -5,6 +5,8 @@ using Bhaptics.SDK2;
 using TMPro;
 using Oculus.Interaction.HandGrab;
 
+// Test Change
+
 [RequireComponent(typeof(WeightPositionTracking))]
 public class BHapticsTest : MonoBehaviour
 {
